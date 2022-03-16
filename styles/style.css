@@ -1,0 +1,39 @@
+.container{
+    font-size: 14px;
+}
+
+.blog-masthead{
+    background-color: #b34848;
+}
+
+h1,
+h2,
+h3,
+h4{
+    color: #b34848;
+   
+}
+
+a{
+   text-decoration: none;
+}
+
+.blog-post-title:hover{
+    color: #b34848;
+    text-decoration: underline;
+}
+
+
+.blog-post-subtitle:hover{
+    color: #b34848;
+    text-decoration: underline;
+}
+
+/* .blog-content{
+    display:flex;
+    justify-content: space-between;
+}
+.sidebar-control{
+    text-align: right;
+    
+} */
