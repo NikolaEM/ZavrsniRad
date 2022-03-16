@@ -29,11 +29,10 @@ a{
     text-decoration: underline;
 }
 
-/* .blog-content{
-    display:flex;
-    justify-content: space-between;
+.new-posts{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: black;
+    font-weight: 700;
 }
-.sidebar-control{
-    text-align: right;
-    
-} */
