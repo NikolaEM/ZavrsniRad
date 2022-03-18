@@ -65,5 +65,6 @@ function setGender($author)
 
         </form>
     </div>
+  </div>
     <?php include('sidebar.php'); ?>
     <?php include('footer.php'); ?>
