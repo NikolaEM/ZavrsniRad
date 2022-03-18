@@ -6,14 +6,17 @@ include_once('db.php');
     $posts = getDataFromServer($sql, $connection, true);
 
 ?>
-<head>
+
 <head>
 <link href="styles/blog.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-</head>
 
-<div class="col-sm-8 blog-main">
+<?php include('header.php'); ?>
+
+<main role="main" class="container">
+ <div class="row">
+   <div class="col-sm-8 blog-main">
     <?php foreach ($posts as $post) { ?>
         <div class="blog-post">
             <a href="single-post.php?id=<?php echo $post['id'] ?>">
@@ -30,5 +33,8 @@ include_once('db.php');
     </nav>
 
 </div>
+
+<?php include('sidebar.php'); ?>
+<?php include('footer.php'); ?>
 
        
